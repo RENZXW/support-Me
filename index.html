@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1 {
+            color: #333;
+            opacity: 0;
+            animation: slideDown 1s ease forwards;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            margin: 20px 0;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+            animation-delay: 0.5s;
+        }
+        .support-btn {
+            display: inline-block;
+            width: 250px;
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            opacity: 0;
+            animation: bounceIn 1s ease forwards;
+            animation-delay: 1s;
+        }
+        .support-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .support-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes bounceIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Support Me</h1>
+    <p>Your support helps me keep creating amazing content! By engaging with ads and links on Linkvertise, you allow me to continue my work without directly donating. Your interactions generate revenue that supports my projects.</p>
+    <p>It’s a simple way to help without any cost to you. Just click the button below to get started!</p>
+
+    <a href="https://linkvertise.com/1205108/support-me-renzxw?o=sharing" class="support-btn">Support Me via Linkvertise</a>
+</body>
+</html>
